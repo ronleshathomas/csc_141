@@ -1,0 +1,1 @@
+print ("Jhene Aiko once said,'but your the same stranger'")
