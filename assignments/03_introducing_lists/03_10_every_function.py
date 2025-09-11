@@ -1,0 +1,26 @@
+colors = ['red', 'blue', 'green', 'yellow', 'pink']
+print(colors)
+print(colors[0].title())
+print(colors[-1].upper())
+message = f"My favorite color is {colors[4].title()}."
+print(message)
+colors[0] = 'grey'
+print(colors)
+colors.append('orange')
+print(colors)
+colors.insert(2, 'brown')
+print(colors)
+del colors[1]
+print(colors)
+popped_color = colors.pop()
+print(colors)
+colors.remove('green')
+print(colors)
+colors.sort()
+print(colors)
+colors.sort(reverse=True)
+print(colors)
+print(sorted(colors))
+len(colors)
+print(len(colors))
+print(colors[4])
