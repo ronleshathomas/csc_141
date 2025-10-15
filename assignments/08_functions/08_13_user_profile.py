@@ -15,6 +15,5 @@ my_profile = build_profile(
     profession="Student"
 )
 
-# Print the profile
 print(my_profile)
 
