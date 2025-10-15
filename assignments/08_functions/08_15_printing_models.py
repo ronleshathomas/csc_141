@@ -1,4 +1,3 @@
-# printing_functions.py
 def print_models(unprinted_designs, completed_models):
     """
     Simulate printing each design until none are left.
@@ -15,7 +14,6 @@ def show_completed_models(completed_models):
     for model in completed_models:
         print(model)
  
- # printing_models.py
 from printing_functions.py import print_models, show_completed_models
 
 unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
@@ -23,3 +21,4 @@ completed_models = []
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
